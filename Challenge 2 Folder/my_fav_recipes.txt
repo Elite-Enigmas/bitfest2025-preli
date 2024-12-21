@@ -44,3 +44,17 @@ Instructions:
 1. Peel and chop mangoes.
 2. Blend mango, yogurt, milk, and honey until smooth.
 3. Serve chilled.
+# Recipe 5
+Name: Banana Pancakes
+Ingredients: Bananas (2 medium), Eggs (2 large), Oats (1 cup), Baking Powder (1 tsp), Cinnamon (0.5 tsp)
+Taste: Sweet
+Cuisine: American
+Preparation Time: 15
+Instructions:
+1. Mash bananas in a bowl.
+2. Add eggs, oats, baking powder, and cinnamon.
+3. Mix until you have a smooth batter.
+4. Heat a non-stick pan and pour small amounts of batter to form pancakes.
+5. Cook for 2-3 minutes on each side until golden brown.
+6. Serve warm with honey or syrup.
+
