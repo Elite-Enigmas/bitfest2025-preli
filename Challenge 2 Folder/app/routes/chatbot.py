@@ -3,7 +3,9 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from langchain.vectorstores import FAISS
 from langchain.text_splitter import CharacterTextSplitter
 from sentence_transformers import SentenceTransformer
-import torch
+import os
+from langchain.embeddings import HuggingFaceEmbeddings
+
 
 router = APIRouter()
 
@@ -12,18 +14,24 @@ MODEL_NAME = "EleutherAI/gpt-neo-1.3B"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, device_map="auto")
 
-# Initialize vector store
-file_path = "/kaggle/input/kuet-preli-1/my_fav_recipes.txt"
+base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+
+# Construct the file path relative to the base directory
+file_path = os.path.join(base_dir, "my_fav_recipes.txt")
+
+print(f"File path: {file_path}")
 embedding_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
 
+from langchain.docstore.document import Document
+
 def load_recipes(file_path):
     """
-    Load recipes from a text file.
+    Load recipes from a text file and return as LangChain Document objects.
     """
     with open(file_path, "r") as file:
         content = file.read()
-    return [{"page_content": content, "metadata": {}}]  # Mock structure for compatibility
+    return [Document(page_content=content)]
 
 
 def split_documents(documents):
@@ -38,7 +46,7 @@ def create_vectorstore(split_docs):
     """
     Create FAISS vector store.
     """
-    embeddings = embedding_model
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     return FAISS.from_documents(split_docs, embeddings)
 
 
