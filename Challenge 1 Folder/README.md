@@ -1,7 +1,10 @@
 # Challenge 1 Solution
 
 Run the code on kaggle
+
 Model Link: https://huggingface.co/Rufiiii/umt5_base_version1
+
+Output of testing data of our finetuned model: https://github.com/Elite-Enigmas/bitfest2025-preli/blob/main/Challenge%201%20Folder/submission_final.csv
 
 # **1. Data Preparation**
 - **Task**: Load and preprocess the dataset.
