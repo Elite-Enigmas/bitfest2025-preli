@@ -4,3 +4,10 @@ Challenge 2 Folder/__pycache__/
 Challenge 2 Folder/.idea/
 
 Challenge 2 Folder/test.db
+
+Challenge 2 Folder/model_cache/models--EleutherAI--gpt-neo-1.3B/blobs/
+
+Challenge 2 Folder/app/llm/__pycache__/
+
+Challenge 2 Folder/app/routes/__pycache__/
+*/model_cache/
