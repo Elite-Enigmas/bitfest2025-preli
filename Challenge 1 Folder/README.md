@@ -1,6 +1,7 @@
 # Challenge 1 Solution
 
 Run the code on kaggle
+Kaggle Notebook Link: https://www.kaggle.com/code/rafihassan/elite-enigmas-kuet-bitfest
 
 # **1. Data Preparation**
 - **Task**: Load and preprocess the dataset.
