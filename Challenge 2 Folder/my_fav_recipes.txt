@@ -1,7 +1,6 @@
-
 # Recipe 1
 Name: Chocolate Cake
-Ingredients: Flour, Sugar, Cocoa Powder, Eggs, Butter, Baking Powder
+Ingredients: Flour: 2 cups, Sugar: 1.5 cups, Cocoa Powder: 0.5 cups, Eggs: 2 large, Butter: 0.5 cups, Baking Powder: 1 tsp
 Taste: Sweet
 Cuisine: American
 Preparation Time: 60
@@ -13,7 +12,7 @@ Instructions:
 
 # Recipe 2
 Name: Spaghetti Carbonara
-Ingredients: Spaghetti, Eggs, Parmesan Cheese, Bacon, Black Pepper
+Ingredients: Spaghetti: 200 grams, Eggs: 2 large, Parmesan Cheese: 50 grams, Bacon: 100 grams, Black Pepper: 1 tsp
 Taste: Savory
 Cuisine: Italian
 Preparation Time: 30
@@ -25,7 +24,7 @@ Instructions:
 
 # Recipe 3
 Name: Vegetable Stir Fry
-Ingredients: Broccoli, Bell Peppers, Carrots, Soy Sauce, Garlic, Ginger
+Ingredients: Broccoli: 1 head, Bell Peppers: 2 medium, Carrots: 2 medium, Soy Sauce: 2 tbsp, Garlic: 3 cloves, Ginger: 1 inch piece, grated
 Taste: Savory
 Cuisine: Asian
 Preparation Time: 20
@@ -37,7 +36,7 @@ Instructions:
 
 # Recipe 4
 Name: Mango Smoothie
-Ingredients: Mango, Yogurt, Milk, Honey
+Ingredients: Mango: 2 medium, Yogurt: 1 cup, Milk: 0.5 cups, Honey: 2 tbsp
 Taste: Sweet
 Cuisine: Fusion
 Preparation Time: 10

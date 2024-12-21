@@ -13,7 +13,7 @@ class Recipe(Base):
     preparation_time = Column(Integer)
     instructions = Column(Text)
 
-class Ingredient(Base):
+class IngredientModel(Base):
     __tablename__ = "ingredients"
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, unique=True, index=True)

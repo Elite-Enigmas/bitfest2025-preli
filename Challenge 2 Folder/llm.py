@@ -1,12 +1,12 @@
 import openai
 from sqlalchemy.orm import Session
-from models import Ingredient
+from models import IngredientModel
 
 # Replace with your OpenAI API key
 openai.api_key = "your-openai-api-key"
 
 def process_chat_query(query: str, db: Session):
-    ingredients = db.query(Ingredient).all()
+    ingredients = db.query(IngredientModel).all()
     ingredient_list = ", ".join([f"{ing.name} ({ing.quantity} {ing.unit})" for ing in ingredients])
     prompt = f"""
     You are a helpful kitchen assistant. Based on the following ingredients available at home: {ingredient_list}, 
