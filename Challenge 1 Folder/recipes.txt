@@ -1,0 +1,43 @@
+
+Name: Chocolate Cake
+Ingredients: Flour, Sugar, Cocoa Powder, Eggs, Butter, Baking Powder
+Taste: Sweet
+Cuisine: American
+Preparation Time: 60
+Instructions:
+1. Preheat oven to 350°F (175°C).
+2. Mix dry ingredients together.
+3. Add eggs and butter, and mix well.
+4. Pour batter into a greased pan and bake for 30 minutes.
+
+Name: Spaghetti Carbonara
+Ingredients: Spaghetti, Eggs, Parmesan Cheese, Bacon, Black Pepper
+Taste: Savory
+Cuisine: Italian
+Preparation Time: 30
+Instructions:
+1. Cook spaghetti until al dente.
+2. Fry bacon until crispy.
+3. Mix eggs and cheese in a bowl.
+4. Combine spaghetti, bacon, and egg mixture, and serve.
+
+Name: Vegetable Stir Fry
+Ingredients: Broccoli, Bell Peppers, Carrots, Soy Sauce, Garlic, Ginger
+Taste: Savory
+Cuisine: Asian
+Preparation Time: 20
+Instructions:
+1. Heat oil in a wok.
+2. Add garlic and ginger, and stir-fry for 1 minute.
+3. Add vegetables and stir-fry for 5 minutes.
+4. Add soy sauce, cook for another 2 minutes, and serve.
+
+Name: Mango Smoothie
+Ingredients: Mango, Yogurt, Milk, Honey
+Taste: Sweet
+Cuisine: Fusion
+Preparation Time: 10
+Instructions:
+1. Peel and chop mangoes.
+2. Blend mango, yogurt, milk, and honey until smooth.
+3. Serve chilled.
