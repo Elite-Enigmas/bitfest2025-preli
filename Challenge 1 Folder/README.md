@@ -1,4 +1,7 @@
 # Challenge 1 Solution
+
+Run the code on kaggle
+
 # **1. Data Preparation**
 - **Task**: Load and preprocess the dataset.
 - **Process**:
